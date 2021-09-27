@@ -19,6 +19,9 @@ dependencies {
 
   implementation("io.opentelemetry:opentelemetry-exporter-otlp:1.6.0")
   implementation("io.opentelemetry:opentelemetry-exporter-otlp-metrics:1.6.0-alpha")
+
+  implementation("io.opentelemetry:opentelemetry-exporter-logging:1.6.0")
+
   implementation("io.grpc:grpc-netty-shaded:1.40.1")
 }
 

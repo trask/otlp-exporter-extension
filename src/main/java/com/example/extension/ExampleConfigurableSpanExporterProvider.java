@@ -36,6 +36,6 @@ public class ExampleConfigurableSpanExporterProvider implements ConfigurableSpan
 
   @Override
   public String getName() {
-    return "example";
+    return "example-otlp";
   }
 }
